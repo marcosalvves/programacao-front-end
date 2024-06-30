@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #aaaaaa;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section#banner{
+    background: url("../imagens/bg_banner.png") top center no-repeat;
+    padding-top: 115px;
+    text-align: center;
+}
+section#news{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background: #EFEFEF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+/* CSS Responsivo */
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    section#news{
+        width: auto;
+    }
+}
+/* Smartphone */
+@media only screen and (max-width: 320px){
+    section#banner img{
+        width: 100%;
+    }
+}
